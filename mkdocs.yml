@@ -1,7 +1,13 @@
-site_name: Relatório de estágio em {NOME_EMPRESA}
-site_author: {NOME_COMPLETO}
+site_name: Relatório de estágio em Engemática TI
+site_author: João Lucas Crescencio Granjeiro Barbosa
 
 theme:
   name: readthedocs
+
+plugins:
+    - search
+    - mermaid2
+sphinx: 
+  configuration: docs/conf.py
 
 
